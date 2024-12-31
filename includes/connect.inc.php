@@ -1,4 +1,5 @@
-?><?php
+
+<?php
 
 $host       = "xpertlabdb.mysql.database.azure.com";
 $username   = "pdbadm";
@@ -12,4 +13,5 @@ $sslcert    = "./DigiCertGlobalRootCA.crt.pem";
                 die('Failed to connect to MySQL: '.mysqli_connect_error());
 
         }
-?>
+
+        ?>
